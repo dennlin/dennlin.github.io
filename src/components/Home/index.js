@@ -6,6 +6,7 @@ import { useEffect, useState } from 'react';
 import AnimatedLetters from '../AnimatedLetters';
 import Logo from './Logo';
 import Loader from 'react-loaders';
+import pfp from '../../assets/images/Dennis-removebg-preview.png';
 
 const Home = () => {
     const [letterClass, setLetterClass] = useState('text-animate')
@@ -48,6 +49,7 @@ const Home = () => {
                     <Link to="/connect" className='flat-button'>CONNECT</Link>
                 </div>
                 {/* <Logo /> */}
+                {/* <img src={pfp} alt='Dennis pfp' className='dennispfp' /> */}
             </div>
             <Loader type='pacman'/>
         </>
