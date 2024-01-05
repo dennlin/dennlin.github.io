@@ -47,7 +47,7 @@ const Home = () => {
                     <h2>IOT and Game Developer / Gamer / Cosplayer</h2>
                     <Link to="/connect" className='flat-button'>CONNECT</Link>
                 </div>
-                <Logo />
+                {/* <Logo /> */}
             </div>
             <Loader type='pacman'/>
         </>

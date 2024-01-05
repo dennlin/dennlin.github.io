@@ -4,7 +4,6 @@ import LogoS from '../../assets/images/letter-d (512px).png'
 import LogoSubtitle from '../../assets/images/Screen Shot 2023-09-18 at 3.05.55 PM.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faComments, faHome, faPaperclip, faUser } from '@fortawesome/free-solid-svg-icons';
-import { faLinkedin } from '@fortawesome/free-brands-svg-icons';
 
 const Sidebar = () => (
     <div className='nav-bar'>
